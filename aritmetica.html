@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginadecursos/estiloscss/estilosdeseccion.css" TYPE="text/css">
+    <link rel="stylesheet" href="../paginadecursos/estiloscss/estilo.css" TYPE="text/css">
+    <title>Aritmética</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <div ><img class="logo" src="../paginadecursos/imagenes/LOGO.jpg" alt="logo"><img src="../paginadecursos/imagenes/barradetitulos.png" alt="barrasupeior"class="marco">
+        </div>
+        <div class="">
+          <h1 class="linkantras"> <a href="../paginadecursos/index.html" class="linkantras">Inicio</a>-<a href="" class="linkantras">Aritmética</a></h1>
+        </div>
+        <div  class="contenedor">
+         <h1 class="cursos">Múltiplos de un número</h1><img class="imagencurso" src="../paginadecursos/imagenes/barradecursos.png" alt="barradecursos">
+        </div>
+         <div class="textotema" >
+            <p> Hoy vamos a estudiar los múltiplos de un número con ayuda de muchos ejemplos.<br> <br>
+            <h2> Múltiplos de un número</h2>
+            Por ejemplo, los 4 primeros múltiplos del número 2 son 2; 4; 6 y 8; esto se debe a que:</p> <br>
+            2 × 1 = 2 <br> <br>
+            2 × 2 = 8 <br><br>
+            2 × 3 = 8 <br><br>
+            2 × 4 = 8 <br><br>
+
+
+            <h2> Definición alternativa</h2>
+            <p>Ejemplos:</p> <br><br>
+            <p>S12 es múltiplo de 3, porque lo contiene 4 veces. <br><br>
+                30 es múltiplo de 6, porque lo contiene 5 veces.</p>
+            <h2> Primeros múltiplos de 2, 3 y 4</h2>
+            <p>Cuando graficamos una función cuadrática, siempre obtenemos una parábola. Para graficar una función cuadrática, usamos a los siguientes puntos:</p> <br> <br>
+            <img src="../paginadecursos/imagenes/funcio 4.png" alt=""> <br> <br>
+            div class="container">
+            <h2>EJERCICIOS DE ARITMETICA</h2>
+            <p>Elija un circulo para el problema</p>
+            <section class="container-operadores">
+                <button id="suma" onclick="btnSumar()"><h1>1</h1>
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <button id="resta" onclick="btnResta()"><h1>2</h1>
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+                <button id="producto" onclick="btnProducto()"><h1>3</h1>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <button id="division" onclick="btnDivision()"><h1>4</h1>
+                    <i class="fa-solid fa-divide"></i>
+                </button>
+            </section>
+    
+            <section class="container-operacion">
+                <span id="num1"></span>
+                <span id="operacion"></span>
+                <span id="num2"></span>
+                <span> = </span>
+                <input type="text" id="respuesta_usuario">
+                <button id="corregir" onclick="corregir()">Corregir</button>
+    
+            </section>
+    
+            <section id="msj_correccion">
+    
+            </section>
+            
+        </div>
+    
+        
+                    
+         </div>
+        <script src="../paginadecursos/js/script.js"></script>
+    </div>
+</body>
+</html>

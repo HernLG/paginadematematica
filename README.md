@@ -1,2 +1,2 @@
-# paginadematematica
-pagina de matematica
+# cronometroher
+cronometro de la tarea

@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 1500px;
+}
+
+.Menu{
+    width: 1500px;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+}
+
+.logo{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    border-radius: 20px;
+}
+    .logo img{
+    width: 150px;
+    align-content: center;
+    margin: 20px 0px 50px 150px;
+    position: absolute;
+    border-radius: 20px;
+    }
+
+.menuprincipal{
+    width: 1500px;
+    display: contents;
+    text-align: center;
+    border-radius: 10px 0px;
+    margin: 0px 20px;
+}
+
+.banner{
+    width: 1500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+    .banner img{
+        width: 1500px;
+        height: 500px;
+        border-radius: 20px;
+    }
+
+.banner1{
+    width: 1500px;
+    text-align: center;
+}
+.clases{
+    width: 1500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 10px 10px;
+}
+    .clase1{
+        width: 500px;
+        height: 400px;
+        background-color: rgb(252, 252, 252);
+        border-radius: 200px 200px;
+        margin: 20px 20px;
+        border: 1px solid rgba(179, 167, 167, 0.256);
+    }
+
+        .clase1 img{
+            width: 420px;
+            height: 380px;
+            align-content: center;
+            margin: 20px 20px 20px 20px;
+            border-radius: 200px 200px;
+            -webkit-transition: 1s ease-out;
+        }
+            .clase1 img:hover{
+                width: 440px;
+                height: 400px;
+                transition: 1s;
+                top: 0px;
+                right: 0px;
+            }
+
+    .clase2{
+        width: 500px;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 200px 200px;
+        margin: 20px 20px;
+        border: 1px solid rgba(179, 167, 167, 0.256);
+    }
+
+        .clase2 img{
+            width: 420px;
+            height: 380px;
+            align-content: center;
+            margin: 20px 20px 20px 20px;
+            border-radius: 200px 200px;
+            -webkit-transition: 1s ease-out;
+        }
+            .clase2 img:hover{
+                width: 440px;
+                height: 400px;
+                transition: 1s;
+                top: 0px;
+                right: 0px;
+            }
+
+    .clase3{
+        width: 500px;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 200px 200px;
+        margin: 20px 20px;
+        border: 1px solid rgba(179, 167, 167, 0.256);
+    }
+
+        .clase3 img{
+            width: 420px;
+            height: 380px;
+            align-content: center;
+            margin: 20px 20px 20px 20px;
+            border-radius:200px 200px;
+            -webkit-transition: 1s ease-out;
+        }
+            .clase3 img:hover{
+                width: 440px;
+                height: 400px;
+                transition: 1s;
+                top: 0px;
+                right: 0px;
+            }
+
+.clases2{
+    width: 1500px;
+    height: 500px;
+    display: flex;
+}
+
+    .clase4{
+        width: 500px;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 200px 200px;
+        margin: 20px 20px;
+        border: 1px solid rgba(179, 167, 167, 0.256);
+    }
+        .clase4 img{
+            width: 420px;
+            height: 380px;
+            align-content: center;
+            margin: 20px 20px 20px 20px;
+            border-radius:200px 200px;
+            -webkit-transition: 1s ease-out;
+        }
+            .clase4 img:hover{
+                width: 440px;
+                height: 400px;
+                transition: 1s;
+                top: 0px;
+                right: 0px;
+            }
+
+    .clase0{
+        width: 500px;
+        height: 400px;
+    }
+
+.titulo{
+    width: 1500px;
+    height: 20px;
+    display: flex;
+}
+    .titulo1{
+        width: 500px;
+        text-align: center;
+    }
+
+    .titulo2{
+        width: 500px;
+        text-align: center;
+    }
+
+    .titulo3{
+        width: 500px;
+        text-align: center;
+    }
+
+.titulo02{
+    width: 1500px;
+    height: 20px;
+    display: flex;
+}
+    .titulo9{
+        width: 500px;
+        text-align: center;
+    }
+
+    .titulo4{
+        width: 500px;
+        text-align: center;
+    }
+
+    .titulo8{
+        width: 500px;
+        text-align: center;
+    }
+
+.pie{
+    width: 1500px;
+    height: 100px;
+    text-align: left;
+}
+
+.pie2{
+    width: 1500px;
+    height: 100px;
+}
+
+
